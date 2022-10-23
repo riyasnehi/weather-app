@@ -1,0 +1,90 @@
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(245, 249, 238) 0%,
+    rgb(230, 239, 243) 90%
+  );
+}
+
+#city-input {
+  background-color: #fff;
+  color: gray;
+}
+#submit {
+  background-color: #54aef7;
+  border: #54aef7;
+}
+#current-location {
+  background-color: #8fc352;
+  border: #8fc352;
+}
+.temperature {
+  position: relative;
+  top: 28px;
+  color: #575656;
+}
+.city {
+  position: relative;
+  right: -390px;
+  top: 28px;
+  color: #575656;
+}
+.humid {
+  position: relative;
+  top: 15px;
+}
+.description {
+  position: relative;
+  right: -400px;
+  top: 15px;
+}
+.windinfo {
+  position: relative;
+  top: 14px;
+}
+.day {
+  position: relative;
+  right: -326px;
+  top: 14px;
+}
+.date {
+  position: relative;
+  right: -436px;
+  top: 13px;
+}
+
+.head2,
+.head3 {
+  color: #686868;
+}
+.weather {
+  display: block;
+  text-align: center;
+}
+.days,
+.img,
+.temp {
+  display: block;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  line-height: 36px;
+  font-size: 15px;
+  font-weight: 49px;
+}
+.days {
+  font-weight: 600;
+}
+.img {
+  padding-top: 4px;
+  font-size: 25px;
+}
+.temp {
+  padding-top: 8px;
+  font-weight: 400;
+}
