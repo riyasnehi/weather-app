@@ -88,3 +88,8 @@
   padding-top: 8px;
   font-weight: 400;
 }
+#link {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
