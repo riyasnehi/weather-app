@@ -2,7 +2,7 @@
   border: 1px solid #dadde1;
   padding: 15px;
   margin: 20px auto;
-  border-radius: 10px;
+  border-radius: 0px;
   max-width: 600px;
   background: radial-gradient(
     circle at 18.7% 37.8%,
@@ -27,10 +27,11 @@
   position: relative;
   top: 28px;
   color: #575656;
+  font-size: 44px;
 }
 .city {
   position: relative;
-  right: -390px;
+  right: -380px;
   top: 28px;
   color: #575656;
 }
