@@ -1,6 +1,7 @@
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
+  padding-top: 45px;
   margin: 20px auto;
   border-radius: 0px;
   max-width: 600px;
@@ -11,6 +12,9 @@
   );
 }
 
+.container {
+  padding: 10px;
+}
 #city-input {
   background-color: #fff;
   color: gray;
